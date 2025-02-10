@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1738818309284,1350,CONTACT_TR_PATCH_UPDATEUSER,200,OK,Add Contact 1-1,text,true,,875,515,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,1350,0,1012
+1738818309783,1118,CONTACT_TR_PATCH_UPDATEUSER,200,OK,Add Contact 1-2,text,true,,871,515,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,1118,0,803
+1738818310638,338,GETCONTACT,200,OK,Add Contact 1-1,text,true,,2418,355,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,338,0,0
+1738818310903,318,GETCONTACT,200,OK,Add Contact 1-2,text,true,,2418,355,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,318,0,0
+1738818310980,346,POST LOGIN,200,OK,Add Contact 1-1,text,true,,1272,460,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,346,0,0
+1738818311224,334,POST LOGIN,200,OK,Add Contact 1-2,text,true,,1272,460,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,334,0,0
+1738818311327,310,CONTACT_TR_POSTLOGIN,200,"Number of samples in transaction : 1, number of failing samples : 0",Add Contact 1-1,,true,,1092,925,2,2,null,0,3,0
+1738818311329,310,POST LOG-IN,201,Created,Add Contact 1-1,text,true,,1092,925,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,310,0,0
+1738818311560,302,CONTACT_TR_POSTLOGIN,200,"Number of samples in transaction : 1, number of failing samples : 0",Add Contact 1-2,,true,,1092,925,1,1,null,0,2,0
+1738818311562,302,POST LOG-IN,201,Created,Add Contact 1-2,text,true,,1092,925,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,302,0,0
